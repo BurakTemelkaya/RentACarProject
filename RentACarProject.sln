@@ -18,9 +18,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "demoProjects\rentACar\Persistince\Persistence.csproj", "{96C4C114-C33F-40CB-8BEA-79F1405C1FD9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "corePackages", "corePackages", "{01FABF51-0604-4F58-9FC4-551866840A8C}"
-	ProjectSection(SolutionItems) = preProject
-		corePackages\Core.Mailing\Core.Mailing.csproj = corePackages\Core.Mailing\Core.Mailing.csproj
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Application", "corePackages\Core.Application\Core.Application.csproj", "{57BE393A-3784-4C60-908D-064837F61765}"
 EndProject
@@ -31,6 +28,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Persistence", "corePackages\Core.Persistence\Core.Persistence.csproj", "{A6341FC3-A4FE-42F5-9988-373A4E06CCDC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Security", "corePackages\Core.Security\Core.Security.csproj", "{9696B23E-C2C2-45B6-A929-DE7990A9B11F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Mailing", "corePackages\Core.Mailing\Core.Mailing.csproj", "{B937359F-BE8B-45B7-87CB-88E9A5FB8545}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -78,6 +77,10 @@ Global
 		{9696B23E-C2C2-45B6-A929-DE7990A9B11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9696B23E-C2C2-45B6-A929-DE7990A9B11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9696B23E-C2C2-45B6-A929-DE7990A9B11F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B937359F-BE8B-45B7-87CB-88E9A5FB8545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B937359F-BE8B-45B7-87CB-88E9A5FB8545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B937359F-BE8B-45B7-87CB-88E9A5FB8545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B937359F-BE8B-45B7-87CB-88E9A5FB8545}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -94,6 +97,7 @@ Global
 		{E46E9024-E74C-4B65-BA13-6E55D29D5F4B} = {01FABF51-0604-4F58-9FC4-551866840A8C}
 		{A6341FC3-A4FE-42F5-9988-373A4E06CCDC} = {01FABF51-0604-4F58-9FC4-551866840A8C}
 		{9696B23E-C2C2-45B6-A929-DE7990A9B11F} = {01FABF51-0604-4F58-9FC4-551866840A8C}
+		{B937359F-BE8B-45B7-87CB-88E9A5FB8545} = {01FABF51-0604-4F58-9FC4-551866840A8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {854E844C-9000-460A-A255-CCAF4CC2C432}
