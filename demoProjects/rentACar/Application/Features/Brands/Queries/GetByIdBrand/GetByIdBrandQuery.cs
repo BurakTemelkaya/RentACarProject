@@ -32,8 +32,8 @@ namespace Application.Features.Brands.Queries.GetByIdBrand
 
                 _brandBusinessRules.BrandShouldExistWhenRequested(brand);
 
-                BrandGetByIdDto mappedBrandListModel = _mapper.Map<BrandGetByIdDto>(brand);
-                return mappedBrandListModel;
+                BrandGetByIdDto mappedBrandModel = _mapper.Map<BrandGetByIdDto>(brand);
+                return mappedBrandModel;
             }
         }
     }
